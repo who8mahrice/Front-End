@@ -1,0 +1,476 @@
+<html>
+	<head>
+
+<!--
+	<script src="js/bootstrap.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="assets/jquery-1.11.3-jquery.min.js"></script>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
+	<link href="assets/datatables.min.css" rel="stylesheet" type="text/css">
+-->
+
+	<!-- ajax jquery.min.js is needed for button dropdown menu -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
+	<link href="assets/datatables.min.css" rel="stylesheet" type="text/css">
+
+	</head>
+	<body>
+		<!-- ADD BELOW CODE IN HERE-->
+
+	</body>
+</html>
+
+------------------------------BS  -------------------------------
+
+------------------------------BS  -------------------------------
+
+------------------------------BS  -------------------------------
+
+------------------------------BS  -------------------------------
+
+------------------------------BS  -------------------------------
+
+------------------------------BS  -------------------------------
+
+------------------------------BS  -------------------------------
+
+------------------------------BS  -------------------------------
+
+------------------------------BS  -------------------------------
+
+
+------------------------------BS Panels that are Collapsible  -------------------------------
+<body>
+		<div class="container">
+			<!-- Panels -->
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4>Panel Heading</h4>
+				</div>	
+				<div class="panel-body">
+					<p>This is the panel body</p>
+				</div>
+				<div class="panel-footer">Panel Footer</div>
+			</div>
+
+			<!-- Collapsibles -->
+			<button class="btn btn-success" data-target="#cla" data-toggle="collapse"> Click to collapse</button>
+			<div id="cla" class="collapse in"> This is a collapsible element that will be visible and not hidden until it is collapsed, due to the 'in'</div>
+
+			<a href="#cla2" data-toggle="collapse"> Click this link to collapse</a>
+			<div id="cla2" class="collapse">The new data is here, this is w/o the 'in'</div>
+
+			<br>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h4><a href="#cla3" data-toggle="collapse">Panel Heading</a></h4>
+				</div>
+				<div id="cla3" class="collapse panel-collapse">
+					<div class="panel-body">
+					<p>This is the panel body</p>
+				</div>
+				<div class="panel-footer">Panel Footer</div>
+				</div>	
+				
+			</div>
+
+	</body>	
+
+------------------------------BS Collapsibles -------------------------------
+<body>
+		<div class="container">
+			<!-- Panels -->
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4>Panel Heading</h4>
+				</div>	
+				<div class="panel-body">
+					<p>This is the panel body</p>
+				</div>
+				<div class="panel-footer">Panel Footer</div>
+			</div>
+			<!-- Collapsibles -->
+			<button class="btn btn-success" data-target="#cla" data-toggle="collapse"> Click to collapse</button>
+			<div id="cla" class="collapse in"> This is a collapsible element that will be visible and not hidden until it is collapsed, due to the 'in'</div>
+
+			<a href="#cla2" data-toggle="collapse"> Click this link to collapse</a>
+			<div id="cla2" class="collapse">The new data is here, this is w/o the 'in'</div>
+
+
+	</body>	
+
+------------------------------BS Panels  -------------------------------
+	<body>
+		<div class="container">
+			<!-- Panels -->
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4>Panel Heading</h4>
+				</div>	
+				<div class="panel-body">
+					<p>This is the panel body</p>
+				</div>
+				<div class="panel-footer">Panel Footer</div>
+			</div>
+
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h4>Panel Heading</h4>
+				</div>	
+				<div class="panel-body">
+					<p>This is the panel body</p>
+				</div>
+				<div class="panel-footer">Panel Footer</div>
+			</div>
+
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h4>Panel Heading</h4>
+				</div>	
+				<div class="panel-body">
+					<p>This is the panel body</p>
+				</div>
+				<div class="panel-footer">Panel Footer</div>
+			</div>
+
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h4>Panel Heading</h4>
+				</div>	
+				<div class="panel-body">
+					<p>This is the panel body</p>
+				</div>
+				<div class="panel-footer">Panel Footer</div>
+			</div>
+		</div>
+
+	</body>	
+------------------------------BS Jumbotron/Wells/Alerts/Labels & Badges -------------------------------
+	<body>
+		<div class="container">
+			<!-- Jumbotron -->
+			<div class="jumbotron">
+				<h1>The Jumbotron</h1>
+			</div>
+			<h1>The heading without a Jumbotron</h1>
+			<div class="page-header">
+				<h1>The Page Header</h1>
+			</div>
+
+			<!-- Wells -->
+			<p class="well well-sm">This is a small well</p>
+			<p class="well">Regular wells are medium</p>
+			<p class="well well-lg">This is a large well</p>
+
+			<!-- Alerts -->
+			<div class="alert alert-danger fade in"> <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> The file will be deleted!</div>
+			<div class="alert alert-success fade in"> <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> The file will be deleted!</div>
+			<div class="alert alert-warning fade in"> <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> The file will be deleted!</div>
+			<div class="alert alert-info fade in"> <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> The file will be deleted!</div>
+
+
+			<!-- Badge -->
+			<a href="#">Messages <span class="badge">6</span></a><br>
+			<a href="#">Notification <span class="badge">29</span></a>
+
+			<button class="btn btn-primary"> Click to see the notification <span class="badge">310</span></button>
+
+			<!-- Label -->
+			<div class="page-header">
+				<h1>Downloads <span class="label label-default">Beta</span></h1>
+			</div>
+
+	</div>
+	</body>
+
+------------------------------BS Buttons -------------------------------
+
+
+
+	<body>
+		<div class="container">
+			<button class="btn btn-default">Click Me</button>
+			<button class="btn btn-priamry btn-xs">Click Me</button>
+			<button class="btn btn-info btn-lg">Click Me</button>
+			<button class="btn btn-success">Click Me</button>
+			<button class="btn btn-warning btn-md">Click Me</button>
+			<button class="btn btn-link">Click Me</button>
+			<button class="btn btn-danger btn-sm">Click Me</button>
+			<button class="btn btn-danger btn-block">Click Me</button>
+			<button class="btn btn-danger active">Click Me</button>
+			<button class="btn btn-danger disabled">Click Me</button> <!-- disable button-->
+			<br>
+			
+			<br>
+			<div class="btn-group">
+				<button class="btn btn-info btn-lg">Home</button>
+				<button class="btn btn-info btn-lg">Home</button>
+				<button class="btn btn-info btn-lg">Home</button>
+				<button class="btn btn-info btn-lg">Home</button>
+				<button class="btn btn-info btn-lg">Homer</button>
+			</div>
+			<br>
+
+			<br>
+			<div class="btn-group-vertical">
+				<button class="btn btn-info btn-lg">Home</button>
+				<button class="btn btn-info btn-lg">Home</button>
+				<button class="btn btn-info btn-lg">Home</button>
+				<button class="btn btn-info btn-lg">Home</button>
+				<button class="btn btn-info btn-lg">Homer</button>
+			</div>
+			<br>
+
+			<br>
+			<div class="btn-group btn-group-justified">
+				<div class="btn-group">
+				<button class="btn btn-info btn-lg">Software</button>
+				<button class="btn btn-info btn-lg">Software</button>
+				<button class="btn btn-info btn-lg">Software</button>
+				<button class="btn btn-info btn-lg">Software</button>
+				<button class="btn btn-info btn-lg">Software</button>
+				</div>
+			</div>
+			<br>
+
+			<div class="btn-group btn-group-justified">
+				<div class="btn-group">
+				<button class="btn btn-info btn-lg">Software</button>
+				</div>
+				<div class="btn-group">
+				<button class="btn btn-info btn-lg">Software</button>
+				</div>
+				<div class="btn-group">
+				<button class="btn btn-info btn-lg">Software</button>
+				</div>
+				<div class="btn-group">
+				<button class="btn btn-info btn-lg">Software</button>
+				</div>
+				<div class="btn-group">
+				<button class="btn btn-info btn-lg">Software</button>
+				</div>
+				</div>
+			
+		
+			<br>
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Article<span class="caret" ></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Technology</a></li>
+					<li><a href="#">Science</a></li>
+					<li><a href="#">Health</a></li>
+					<li class="divider"></li>
+					<li class="dropdown-header">Personal</li>
+					<li class="divider"></li>
+					<li><a href="#">Logout</a></li>
+				</ul>
+			</div>	
+
+			<br>
+			<div class="dropup">
+				<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Article<span class="caret" ></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Technology</a></li>
+					<li><a href="#">Science</a></li>
+					<li><a href="#">Health</a></li>
+					<li class="divider"></li>
+					<li class="dropdown-header">Personal</li>
+					<li class="divider"></li>
+					<li><a href="#">Logout</a></li>
+				</ul>
+			</div>	
+
+		
+	</div>
+	</body>
+
+
+
+
+------------------------------BS Tables -------------------------------
+
+<body>
+		<div class="container-fluid"> <!-- <div class="container"> will adjust to screen size -->
+				<table class="table">
+					<thead>
+						<tr>
+							<th>S.no</th>
+							<th>Name</th>
+							<th>Paid</th>
+							<th>Not Paid</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="table table-striped">
+					<thead>
+						<tr class="danger">
+							<th>S.no</th>
+							<th>Name</th>
+							<th>Paid</th>
+							<th>Not Paid</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+						<tr class="warning" >
+							<td>2</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="table table-condensed table-">
+					<thead>
+						<tr>
+							<th>S.no</th>
+							<th>Name</th>
+							<th>Paid</th>
+							<th>Not Paid</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="active">
+							<td>1</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- Table with two table classes: bordered and hover -->
+				<table class="table table-bordered table-hover">
+					<thead>
+						<tr class="success">
+							<th>S.no</th>
+							<th>Name</th>
+							<th>Paid</th>
+							<th>Not Paid</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>John</td>
+							<td>500</td>
+							<td>200</td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+</body>
+
+
+
+
+
+
+
+------------------------------BS Images -------------------------------
+
+
+	<body>
+		<div class="container-fluid">
+			<img src="images/img1.jpg" class="img-circle" width="300px"> <!-- image folder / image file -->
+			<img src="images/img1.jpg" class="img-thumbnail" width="300px"> <!-- has a boarder around the image -->
+		</div>
+	</body>
+
+
+
+
+
+
+
+
+------------------------------BS Columns-------------------------------
+
+
+	<body>
+		<div class="container-fluid">
+		<div class="row"> 
+				<div class="col-md-6" style="background: lightblue">Hello</div>
+				<div class="col-md-2" style="background: lightgreen">Hello</div>
+				<div class="col-md-4" style="background: orange">Hello</div>
+		</div>
+		<div class="row"> 
+				<div class="col-md-6" style="background: lightblue">Hello</div>
+				<div class="col-md-2" style="background: lightgreen">Hello</div>
+
+
+				<!--
+				xs = mobile
+				sm = small
+				md = medium, suitable for all devices (best to use)
+				lg = large, suitable desktop
+				-->
+		</div>
+		</div>
+	</body>
+
+-----------------------------------------------------------------------------------------------------
